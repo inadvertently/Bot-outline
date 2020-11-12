@@ -1,5 +1,6 @@
 import discord
-import random
+from discord.ext import commands
+
 
 client = commands.Bot(command_prefix = 'INSERT PREFIX HERE')
 client.remove_command("help")
